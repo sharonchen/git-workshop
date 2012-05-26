@@ -7,7 +7,7 @@ describe SingaporeRelativeClock do
 	end
 
 	it "should give -2 hours to Sydney" do
-		@clock.timeDifferencetTo("Sydney").should===-2
+		@clock.timeDifferenceTo("Sydney").should===-2
 		#SYDtime = SGtime - 2.Hours
 	end
 end
